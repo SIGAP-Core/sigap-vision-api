@@ -1,0 +1,7 @@
+Flask
+ultralytics
+opencv-python
+paho-mqtt
+python-dotenv
+requests
+dotenv
