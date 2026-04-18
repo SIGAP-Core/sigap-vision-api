@@ -124,7 +124,8 @@ def upload_image():
                 "status_ai": status_ai,
                 "vehicle_count": jumlah_mobil,
                 "timestamp": timestamp,
-                "confidence": f"{int(confidence_score * 100)}%"
+                "confidence": f"{int(confidence_score * 100)}%",
+                "needs_broadcast": "false"
             }
             # Membuka ulang file untuk dikirim via form-data HTTP
             with open(filepath, 'rb') as img_file:

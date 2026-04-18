@@ -3,3 +3,4 @@ yolov8n.pt
 .env
 .vscode
 potret_mobil
+..env.*
